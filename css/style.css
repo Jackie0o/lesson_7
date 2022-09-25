@@ -1,0 +1,115 @@
+/* ====================== Connect the Lato font from Google fonts ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ====================== CCS Properties =============================== */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+}
+
+[class*="__container"] {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.main__container > * {
+  margin: 0 0 24px 0;
+}
+.header {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #1e212c;
+  padding: 45px 0;
+  margin: 0 0 40px 0;
+}
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1e212c;
+}
+.main-image {
+  margin: 0 0 60px 0;
+}
+.main-image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.text-item {
+  margin: 0 0 26px 0;
+}
+.main-text.text-main {
+  margin: 0 0 48px 0;
+}
+.main-text.bold.text-main {
+  padding: 0 0 0 58px;
+  margin: 0 0 48px 0;
+}
+.main-list {
+  padding: 0 0 0 32px;
+}
+.main-list li {
+  margin: 0 0 4px 0;
+}
+.main-text-last {
+  margin: 0 0 60px 0;
+}
+.footer__container > * {
+  margin-right: 50px;
+}
+.footer img {
+  max-width: 60px;
+}
+.footer h2 {
+  display: inline-block;
+  max-width: 530px;
+  padding: 15px 0;
+  font-size: 40px;
+  color: #c5a709;
+}
+
+.first-block {
+  background: url(../img/coffee-image05.png) no-repeat 40px 80px / 500px,
+    url(../img/coffee-image01.jpg) 0 0 / cover no-repeat;
+  max-width: 100%;
+  min-height: 600px;
+  box-shadow: -5px 5px 38px -2px #f9047b, 5px -5px 49px 0px #f9c62a;
+}
+.second-block {
+  background: url(../img/coffee-image06.png) no-repeat 40px 80px / 500px fixed,
+    url(../img/coffee-image02.jpg) 0 0 / cover no-repeat;
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: -5px 5px 38px -2px #f9047b, 5px -5px 49px 0px #f9c62a;
+}
+.third-block {
+  background: url(../img/coffee-image06.png) no-repeat 40px 80px / 500px fixed,
+    url(../img/coffee-pikachu.jpg) top right / 150px 150px repeat-y,
+    url(../img/coffee-image03.jpg) 0 0 / contain no-repeat,
+    url(../img/coffee-cup.jpg) no-repeat 959px 0 / 732px 600px;
+  max-width: 100%;
+  min-height: 600px;
+  box-shadow: -5px 5px 38px -2px #f9047b, 5px -5px 49px 0px #f9c62a;
+}
+.fourth-block {
+  background: url(../img/coffee-image04.png) no-repeat 20px 80px / 500px,
+    url(../img/coffee-image06.png) no-repeat 40px 80px / 500px fixed, #f9c62a;
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: -5px 5px 38px -2px #f9047b, 5px -5px 49px 0px #f9c62a;
+}
+.fifth-block {
+  background: url(../img/coffe-vader.jpg) bottom left / 307px 350px repeat-x,
+    radial-gradient(
+      circle,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 70%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: -5px 5px 38px -2px #f9047b, 5px -5px 49px 0px #f9c62a;
+}
